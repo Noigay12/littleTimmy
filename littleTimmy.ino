@@ -1,14 +1,14 @@
-#include <Otto.h>
-#include <Otto_gestures.h>
-#include <Otto_mouths.h>
-#include <Otto_sounds.h>
+#include <Otto9.h>
+#include <Otto_gestures9.h>
+#include <Otto_mouth9.h>
+#include <Otto_sound9.h>
 
 #include <Servo.h>
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-Otto Otto;  //This is Otto!
+Otto9 Otto;  //This is Otto!
 
 #define OLED_RESET 4
 Adafruit_SSD1306 display(OLED_RESET);
@@ -63,8 +63,8 @@ void setup()
   // Clear the buffer.
   display.clearDisplay();
    
-   servoX.attach(4);
-   servoY.attach(5);
+   servoX.attach(8);
+   servoY.attach(9);
    //Inicializamos el pin 13
    pinMode(LED, OUTPUT);
    pinMode(sensorPin, INPUT);
