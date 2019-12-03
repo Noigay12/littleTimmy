@@ -4,7 +4,7 @@
 debug = True        # Set to False for no data display
 verbose = False     # Add extra detailed information 
 show_fps = True     # show frames per second processing speed
-window_on = True    # Set to True displays opencv windows (GUI desktop reqd)
+window_on = False   # Set to True displays opencv windows (GUI desktop reqd)
 diff_window_on = False  # Show OpenCV image difference window
 thresh_window_on = False  # Show OpenCV image Threshold window
 CIRCLE_SIZE = 8     # diameter of circle to show motion location in window
